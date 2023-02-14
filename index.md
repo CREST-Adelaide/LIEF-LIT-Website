@@ -13,6 +13,8 @@ Context, motivation, technical descriptions of the project
 Available datasets and other resources, such as software prototypes and presentation slides.
 
 - [Blockchain enabled IoT inventory management](/projects/BC-IoT-inventory)
+- [Blockchain enabled IoT inventory management](/projects/BC-IoT-inventory/)
+- [Blockchain enabled IoT inventory management]({% link projects/BC-IoT-inventory %})
 
 # Publications
 
