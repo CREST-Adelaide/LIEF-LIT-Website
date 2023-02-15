@@ -37,4 +37,4 @@ Researchers and IoT hardware inventory can come from different organisations, su
 
 # Resources
 
-[GitHub](https://github.com/CREST-Adelaide/LIEF-LIT-IoT-Inventory-Mgnt)
+[Source Code](https://github.com/CREST-Adelaide/LIEF-LIT-IoT-Inventory-Mgnt)
