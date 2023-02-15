@@ -13,6 +13,7 @@ Context, motivation, technical descriptions of the project
 Prototypes of various components making up and operating the Ledger-integrated IoT Testbed at the University of Adelaide
 
 - [Blockchain enabled IoT inventory management](projects/BC-IoT-inventory)
+- [Blockchain-enabled Tasking of IoT testkits](projects/LIT-blockchain.md)
 
 # Case Studies
 

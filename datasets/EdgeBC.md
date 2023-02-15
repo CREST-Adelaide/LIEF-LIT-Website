@@ -1,3 +1,9 @@
+---
+layout: page
+title: EdgeBC Dataset
+subtitle: Dataset from field and lab-based experimentation
+---
+
 # Context
 
 The primary purpose of the Adelaide IoT Testbed is enabling researchers to deploy ad-hoc IoT testkits and operate their workload (e.g., ML, data processing, blockchain) in both lab-based and real-world settings. The Edge BC dataset is an exemplary result of such studies. 
