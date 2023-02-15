@@ -15,8 +15,8 @@ title: Adelaide IoT Testbed
 # Your name to show in the footer
 author: CREST
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://crest-adelaide.github.io/LIEF-LIT-Website" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/LIEF-LIT-Website" # the subpath of your site, e.g. /blog
+url: "https://crest-adelaide.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 ###############################################
 # --- List of links in the navigation bar --- #
