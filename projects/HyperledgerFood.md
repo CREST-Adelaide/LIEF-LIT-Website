@@ -1,7 +1,7 @@
 ---
 layout: page
-title: BC-IoT Inventory
-subtitle: Secure and decentralised tracking of experiment results based on IoT devices
+title: HyperledgerFood
+subtitle: Decentralised supply chain provenance management operating over hybrid decentralised IoT infrastructures
 ---
 
 # Context 
@@ -18,19 +18,19 @@ The current state of the project is there are four organisations, a manufacturer
 
 Ideally the food supply chain would go as follows; a product is farmed/created at a manufacturer, the manufacturer then puts the product into the system with all the relevant information. The product is bought by a distributor, and when the distributor receives the product it now updates the product with the new details such as location and time. The product is then passed to a retailer who then also updates the product. Lastly the product is sold to a consumer, and a consumer is able to view the history of the product through the supply chain. Viewing where it was made, what distributor and what retailer it was passed to. Also any other information that may be important such as expiry date. 
 
-![](https://github.com/CREST-Adelaide/LIEF-LIT-HyperledgerFood/blob/main/docs/diagrams/High-Level%20Use%20Case.png)
+![](/assets/img/HyperledgerFood-UseCases-Diagram.png)
 
 The project implements this in a distributed manner. Any organisation can view the products and their history, but only a manufacturer can add an item. Only a distributor and retailer can update product details. These policies are not currently enforced within the endorsement policy and created chaincode but are rather a limitation in the SDK. This functionality is one of the very next steps in development.
 
 ## Use Cases
 
-![](https://github.com/CREST-Adelaide/LIEF-LIT-HyperledgerFood/blob/main/docs/diagrams/Organisation%20Use%20Case.png)
+![](/assets/img/HyperledgerFood-OrgUseCases-Diagram.png)
 
 The figure above describes the use cases offered by HyperledgerFood. These use cases are implemented as software components within blockchain and software clients operating outside the blockchain. 
 
 ## Components and Deployment
 
-![](https://github.com/CREST-Adelaide/LIEF-LIT-HyperledgerFood/blob/main/docs/diagrams/Current%20Deployment.png)
+![](/assets/img/HyperledgerFood-Deployment-Diagram.png)
 
 The HyperledgerFood is a decentralised application that comprises **multiple types of peer nodes**: manufacturer, distributor, retailer, and consumer. Each type of peer node offers functionality suited for one type of food supply chain participant. 
 
@@ -43,7 +43,7 @@ Unlike majority of preexistent blockchain implementation, the blockchain of Hype
 
 ## Activity Flows
 
-![](https://github.com/CREST-Adelaide/LIEF-LIT-HyperledgerFood/blob/main/docs/diagrams/Transaction%20Sequence.png)
+![](/assets/img/HyperledgerFood-Sequence-Diagram.png)
 
 The life cycle of a life cycle record starts from an information input request from a peer node. In the prototype, the input is captured in form of QR codes attached on food products. 
 
@@ -51,7 +51,7 @@ The information input triggers an SDK within the software of peer node, which in
 
 # Benchmark and Demonstration
 
-![](https://github.com/CREST-Adelaide/LIEF-LIT-HyperledgerFood/blob/main/docs/performance%20reports/NUCwithPi.png)
+![](/assets/img/HyperledgerFood-NUCwithPi.png)
 
 The figure above presents the performance and resource consumption level of the HyperledgerFood prototype over a testkit from the Ledger-integrated IoT Testbed at the University of Adelaide. 
 
