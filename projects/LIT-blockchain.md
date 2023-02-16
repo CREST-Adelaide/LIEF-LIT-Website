@@ -28,4 +28,4 @@ LIT Frontend is a web-based interface that enable end users to interact with the
 
 # Resources
 
-- [Source Code and Architecture](https://github.com/CREST-Adelaide/LIEF-LIT-Blockchain)
+- [Prototype code](https://github.com/CREST-Adelaide/LIEF-LIT-Blockchain)
