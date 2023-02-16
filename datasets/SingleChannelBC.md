@@ -18,7 +18,7 @@ This project aims to empirically evaluate the performance and resource consumpti
 
 ![](/assets/img/BCDataset-hardware-topology.png)
 
-![](../assets/img/BCDataset-hardware_configuration.png)
+![](/assets/img/BCDataset-hardware_configuration.png)
 
 The experimental hardware infrastructure are made up of two IoT test kits, acting as two clusters. In a real-world scenario, these clusters might cover different areas within a disaster struck region and operated by different entities. 
 
