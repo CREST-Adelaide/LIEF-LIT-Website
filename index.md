@@ -4,16 +4,33 @@ title: LIT
 subtitle: Ledger-integrated IoT Testbed at the University of Adelaide
 ---
 
-# Description
+# Context
 
-Context, motivation, technical descriptions of the project
+The IoT testbed at the University of Adelaide investigates the concept and engineering challenges of decentralised ad-hoc IoT infrastructures that can be adapted and deployed in different situations and environments to support a diverse set of studies. These infrastructures resemble the ad-hoc infrastructures rapidly assembled in the field to operate IoT sensors and autonomous systems for use cases such as emergency response in a disaster struck region.
 
-# Prototypes
+# Testbed Design
 
-Prototypes of various components making up and operating the Ledger-integrated IoT Testbed at the University of Adelaide
+## Hardware
 
-- [Blockchain enabled IoT inventory management](projects/BC-IoT-inventory)
-- [Blockchain-enabled Tasking of IoT testkits](projects/LIT-blockchain.md)
+![](/assets/img/BC-IoT-Inventory-Class-Diagram.png)
+
+The IoT testbed at the University of Adelaide is made up of multiple groups of devices called **test kits**. Each kit comprises multiple wireless **sensors** or autonomous systems connecting to multiple battery-powered computers acting as **gateways**. The gateways are coordinated by a stationary, resource-rich computer acting as a fog nodes or **aggregators**. The following figure presents an exemplary test kit. 
+
+![](/assets/img/Testkit.png)
+
+Testkits are coordinated and supported by a set of servers acting as the data processing and storage services. The following figure provides an overview of the hardware making up the IoT testbed.
+
+![](/assets/img/Testkit_overall.png)
+
+The number and types of devices within a test kit can be customised prior to a **deployment**. These deployments form a part of an exploratory or evaluative **experiment**. A test kit generates **results** after deployments. For instance, the results can be a dataset about real-world observations or a dataset of performance and resource consumption of the data processing or machine learning component deployed upon the test kit itself. 
+
+## Software
+
+The software of the testbed covers three aspects: 
+- [Operations within each IoT test kit](projects/Testkit-software) 
+- [Management of a device inventory across distributed test kits](projects/BC-IoT-inventory)
+- [Tasking of distributed test kits for experimentation](projects/LIT-blockchain)
+
 
 # Case Studies
 
